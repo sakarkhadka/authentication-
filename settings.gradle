@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':wahoo_fitness_android_api_1.8.2.0'
 rootProject.name='Fingerprint Authentication'

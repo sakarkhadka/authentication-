@@ -192,15 +192,6 @@ public class MainActivity extends AppCompatActivity {
            // startActivity(in);
         }
         //g7
-
-
-
-
-
-
-
-
-
     }
 
 

@@ -1,13 +1,15 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:2:1-37:12
+ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:2:1-51:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\cb634fe4b4d1fdfcd5255e485d30a0c1\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\f6a183f8595ca34f3d5cc99d1f8bc322\appcompat-1.0.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\8392647ca9531c13a8f0d6b7ad086e7e\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\1964611a1907e3ea07b40ce4c516c284\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\3c441937713772a721e73be8f405662d\play-services-location-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [:wahoo_fitness_android_api_1.8.2.0] C:\Users\g7sak\Desktop\FingerprintAuthentication\wahoo_fitness_android_api_1.8.2.0\build\.transforms\2cf6273fd7afce90044d4a030abb7f2c\jetified-wahoo_fitness_android_api_1.8.2.0\AndroidManifest.xml:2:1-24:12
 MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\291563c6708268cf4683b088770f2b39\play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\e97d49e25e749bf64ddb03a7a6947c47\play-services-places-placereport-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\3087f829ad78da1f0d52970740cc50c8\play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
@@ -19,6 +21,7 @@ MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\g7sak\.gradl
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\ba2af06f417607d7ef1ca9f201a0d139\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\324a702de98e8e0560de88ae82ee3427\vectordrawable-1.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.transition:transition:1.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\402e2fb3baa5e6ca3b4a0d7ccbd7cd5b\transition-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\a6ce3afbff3f1ae3fa1fe13048b173d9\media-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\331f61861c2d3a925f2252286afb1f53\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\f3997ce16a5c00ae84a772d300d0e1e8\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\04087833f388d5ffa97a080d757646c2\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -40,20 +43,20 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\g7sak\.gradle\ca
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\420f294924962582b4c42c622af43461\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\66e997bde0b6ece28f7fd36f5f4a1584\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\8787729f29cf7add1bc29c81caccddfd\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:2:1-51:12
 	package
 		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:3:5-52
 		INJECTED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:2:1-37:12
+		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:2:1-51:12
 		INJECTED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:2:1-37:12
+		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:2:1-51:12
 		INJECTED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:2:11-69
@@ -68,19 +71,45 @@ ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\Android
 	android:name
 		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:9:22-69
 uses-permission#android.permission.USE_FINGERPRINT
-ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:11:5-74
+ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:10:5-74
 	android:name
-		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:11:22-71
+		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:10:22-71
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:15:5-78
+ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:11:5-79
+MERGED from [:wahoo_fitness_android_api_1.8.2.0] C:\Users\g7sak\Desktop\FingerprintAuthentication\wahoo_fitness_android_api_1.8.2.0\build\.transforms\2cf6273fd7afce90044d4a030abb7f2c\jetified-wahoo_fitness_android_api_1.8.2.0\AndroidManifest.xml:13:5-79
+MERGED from [:wahoo_fitness_android_api_1.8.2.0] C:\Users\g7sak\Desktop\FingerprintAuthentication\wahoo_fitness_android_api_1.8.2.0\build\.transforms\2cf6273fd7afce90044d4a030abb7f2c\jetified-wahoo_fitness_android_api_1.8.2.0\AndroidManifest.xml:13:5-79
 	android:name
-		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:15:22-76
+		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:11:22-76
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:16:5-83
+ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:12:5-67
+MERGED from [:wahoo_fitness_android_api_1.8.2.0] C:\Users\g7sak\Desktop\FingerprintAuthentication\wahoo_fitness_android_api_1.8.2.0\build\.transforms\2cf6273fd7afce90044d4a030abb7f2c\jetified-wahoo_fitness_android_api_1.8.2.0\AndroidManifest.xml:17:5-67
+MERGED from [:wahoo_fitness_android_api_1.8.2.0] C:\Users\g7sak\Desktop\FingerprintAuthentication\wahoo_fitness_android_api_1.8.2.0\build\.transforms\2cf6273fd7afce90044d4a030abb7f2c\jetified-wahoo_fitness_android_api_1.8.2.0\AndroidManifest.xml:17:5-67
 	android:name
-		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:16:22-64
+		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:14:5-68
+MERGED from [:wahoo_fitness_android_api_1.8.2.0] C:\Users\g7sak\Desktop\FingerprintAuthentication\wahoo_fitness_android_api_1.8.2.0\build\.transforms\2cf6273fd7afce90044d4a030abb7f2c\jetified-wahoo_fitness_android_api_1.8.2.0\AndroidManifest.xml:14:5-68
+MERGED from [:wahoo_fitness_android_api_1.8.2.0] C:\Users\g7sak\Desktop\FingerprintAuthentication\wahoo_fitness_android_api_1.8.2.0\build\.transforms\2cf6273fd7afce90044d4a030abb7f2c\jetified-wahoo_fitness_android_api_1.8.2.0\AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:14:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:15:5-74
+MERGED from [:wahoo_fitness_android_api_1.8.2.0] C:\Users\g7sak\Desktop\FingerprintAuthentication\wahoo_fitness_android_api_1.8.2.0\build\.transforms\2cf6273fd7afce90044d4a030abb7f2c\jetified-wahoo_fitness_android_api_1.8.2.0\AndroidManifest.xml:15:5-74
+MERGED from [:wahoo_fitness_android_api_1.8.2.0] C:\Users\g7sak\Desktop\FingerprintAuthentication\wahoo_fitness_android_api_1.8.2.0\build\.transforms\2cf6273fd7afce90044d4a030abb7f2c\jetified-wahoo_fitness_android_api_1.8.2.0\AndroidManifest.xml:15:5-74
+	android:name
+		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:15:22-71
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:21:5-68
+MERGED from [:wahoo_fitness_android_api_1.8.2.0] C:\Users\g7sak\Desktop\FingerprintAuthentication\wahoo_fitness_android_api_1.8.2.0\build\.transforms\2cf6273fd7afce90044d4a030abb7f2c\jetified-wahoo_fitness_android_api_1.8.2.0\AndroidManifest.xml:16:5-68
+MERGED from [:wahoo_fitness_android_api_1.8.2.0] C:\Users\g7sak\Desktop\FingerprintAuthentication\wahoo_fitness_android_api_1.8.2.0\build\.transforms\2cf6273fd7afce90044d4a030abb7f2c\jetified-wahoo_fitness_android_api_1.8.2.0\AndroidManifest.xml:16:5-68
+	android:name
+		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:21:22-65
+uses-permission#android.permission.ACCESSNETWORKSTATE
+ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:23:5-77
+	android:name
+		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:23:22-74
 application
-ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:20:5-35:19
+ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:25:5-49:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\cb634fe4b4d1fdfcd5255e485d30a0c1\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\cb634fe4b4d1fdfcd5255e485d30a0c1\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\8392647ca9531c13a8f0d6b7ad086e7e\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -102,35 +131,39 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\g7
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.1] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\72b2b92ec4ab73ff21fb9bc348de3b22\core-1.0.1\AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:25:9-35
+		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:30:9-35
 	android:label
-		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:23:9-41
+		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:28:9-41
 	android:roundIcon
-		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:24:9-54
+		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:29:9-54
 	android:icon
-		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:22:9-43
+		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:27:9-43
 	android:allowBackup
-		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:21:9-35
+		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:26:9-35
 	android:theme
-		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:26:9-40
-activity#com.example.fingerprintauthentication.homepage
-ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:27:9-55
+		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:31:9-40
+activity#com.example.fingerprintauthentication.BluetoothActivity
+ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:33:9-39:20
 	android:name
-		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:27:19-43
-activity#com.example.fingerprintauthentication.MainActivity
-ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:28:9-34:20
-	android:name
-		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:28:19-47
+		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:33:19-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:29:13-33:29
+ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:34:13-38:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:30:17-69
+ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:35:17-69
 	android:name
-		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:30:25-66
+		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:35:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:32:17-77
+ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:37:17-77
 	android:name
-		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:32:27-74
+		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:37:27-74
+activity#com.example.fingerprintauthentication.homepage
+ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:41:9-46
+	android:name
+		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:41:19-43
+activity#com.example.fingerprintauthentication.MainActivity
+ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:42:9-48:20
+	android:name
+		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:42:19-47
 uses-sdk
 INJECTED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml
@@ -141,8 +174,12 @@ MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\g7sak\.gradle\caches\t
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\f6a183f8595ca34f3d5cc99d1f8bc322\appcompat-1.0.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\8392647ca9531c13a8f0d6b7ad086e7e\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\8392647ca9531c13a8f0d6b7ad086e7e\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\1964611a1907e3ea07b40ce4c516c284\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\1964611a1907e3ea07b40ce4c516c284\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\3c441937713772a721e73be8f405662d\play-services-location-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\3c441937713772a721e73be8f405662d\play-services-location-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [:wahoo_fitness_android_api_1.8.2.0] C:\Users\g7sak\Desktop\FingerprintAuthentication\wahoo_fitness_android_api_1.8.2.0\build\.transforms\2cf6273fd7afce90044d4a030abb7f2c\jetified-wahoo_fitness_android_api_1.8.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [:wahoo_fitness_android_api_1.8.2.0] C:\Users\g7sak\Desktop\FingerprintAuthentication\wahoo_fitness_android_api_1.8.2.0\build\.transforms\2cf6273fd7afce90044d4a030abb7f2c\jetified-wahoo_fitness_android_api_1.8.2.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\291563c6708268cf4683b088770f2b39\play-services-base-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\291563c6708268cf4683b088770f2b39\play-services-base-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\e97d49e25e749bf64ddb03a7a6947c47\play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
@@ -165,6 +202,8 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\g7sak\.gradl
 MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\324a702de98e8e0560de88ae82ee3427\vectordrawable-1.0.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.transition:transition:1.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\402e2fb3baa5e6ca3b4a0d7ccbd7cd5b\transition-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.transition:transition:1.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\402e2fb3baa5e6ca3b4a0d7ccbd7cd5b\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\a6ce3afbff3f1ae3fa1fe13048b173d9\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\a6ce3afbff3f1ae3fa1fe13048b173d9\media-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\331f61861c2d3a925f2252286afb1f53\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\331f61861c2d3a925f2252286afb1f53\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\f3997ce16a5c00ae84a772d300d0e1e8\viewpager-1.0.0\AndroidManifest.xml:20:5-44
@@ -217,6 +256,16 @@ INJECTED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\Andr
 		INJECTED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:wahoo_fitness_android_api_1.8.2.0] C:\Users\g7sak\Desktop\FingerprintAuthentication\wahoo_fitness_android_api_1.8.2.0\build\.transforms\2cf6273fd7afce90044d4a030abb7f2c\jetified-wahoo_fitness_android_api_1.8.2.0\AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from [:wahoo_fitness_android_api_1.8.2.0] C:\Users\g7sak\Desktop\FingerprintAuthentication\wahoo_fitness_android_api_1.8.2.0\build\.transforms\2cf6273fd7afce90044d4a030abb7f2c\jetified-wahoo_fitness_android_api_1.8.2.0\AndroidManifest.xml:18:22-76
+uses-feature#android.hardware.bluetooth_le
+ADDED from [:wahoo_fitness_android_api_1.8.2.0] C:\Users\g7sak\Desktop\FingerprintAuthentication\wahoo_fitness_android_api_1.8.2.0\build\.transforms\2cf6273fd7afce90044d4a030abb7f2c\jetified-wahoo_fitness_android_api_1.8.2.0\AndroidManifest.xml:20:5-22:36
+	android:required
+		ADDED from [:wahoo_fitness_android_api_1.8.2.0] C:\Users\g7sak\Desktop\FingerprintAuthentication\wahoo_fitness_android_api_1.8.2.0\build\.transforms\2cf6273fd7afce90044d4a030abb7f2c\jetified-wahoo_fitness_android_api_1.8.2.0\AndroidManifest.xml:22:9-33
+	android:name
+		ADDED from [:wahoo_fitness_android_api_1.8.2.0] C:\Users\g7sak\Desktop\FingerprintAuthentication\wahoo_fitness_android_api_1.8.2.0\build\.transforms\2cf6273fd7afce90044d4a030abb7f2c\jetified-wahoo_fitness_android_api_1.8.2.0\AndroidManifest.xml:21:9-53
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\291563c6708268cf4683b088770f2b39\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
 	android:exported

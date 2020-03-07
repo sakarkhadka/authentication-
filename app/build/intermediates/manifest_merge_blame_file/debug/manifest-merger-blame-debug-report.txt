@@ -20,70 +20,114 @@
 15    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
 15-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:9:5-72
 15-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:9:22-69
-16    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
-16-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:11:5-74
-16-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:11:22-71
-17
-18    <!-- .. -->
-19
-20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-20-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:15:5-78
-20-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:15:22-76
-21    <uses-permission android:name="android.permission.INTERNET" />
-21-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:16:5-83
-21-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:16:22-64
-22
-23    <!-- .. -->
-24    <application
-24-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:20:5-35:19
-25        android:allowBackup="true"
-25-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:21:9-35
-26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-26-->[androidx.core:core:1.0.1] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\72b2b92ec4ab73ff21fb9bc348de3b22\core-1.0.1\AndroidManifest.xml:22:18-86
-27        android:debuggable="true"
-28        android:icon="@mipmap/ic_launcher"
-28-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:22:9-43
-29        android:label="@string/app_name"
-29-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:23:9-41
-30        android:roundIcon="@mipmap/ic_launcher_round"
-30-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:24:9-54
-31        android:supportsRtl="true"
-31-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:25:9-35
-32        android:testOnly="true"
-33        android:theme="@style/AppTheme" >
-33-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:26:9-40
-34        <activity android:name="com.example.fingerprintauthentication.homepage" />
-34-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:27:9-55
-34-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:27:19-43
-35        <activity android:name="com.example.fingerprintauthentication.MainActivity" >
-35-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:28:9-34:20
-35-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:28:19-47
-36            <intent-filter>
-36-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:29:13-33:29
-37                <action android:name="android.intent.action.MAIN" />
-37-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:30:17-69
-37-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:30:25-66
-38
-39                <category android:name="android.intent.category.LAUNCHER" />
-39-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:32:17-77
-39-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:32:27-74
-40            </intent-filter>
-41        </activity>
-42        <activity
-42-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\291563c6708268cf4683b088770f2b39\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-43            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-43-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\291563c6708268cf4683b088770f2b39\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-44            android:exported="false"
-44-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\291563c6708268cf4683b088770f2b39\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-45            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-45-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\291563c6708268cf4683b088770f2b39\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-46
-47        <meta-data
-47-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\0d527c9fe76ee3799d364c7c740417ad\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-48            android:name="com.google.android.gms.version"
-48-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\0d527c9fe76ee3799d364c7c740417ad\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-49            android:value="@integer/google_play_services_version" />
-49-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\0d527c9fe76ee3799d364c7c740417ad\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-50    </application>
-51
-52</manifest>
+16    <uses-permission android:name="android.permission.USE_FINGERPRINT" /> <!-- .. -->
+16-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:10:5-74
+16-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:10:22-71
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:11:5-79
+17-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:11:22-76
+18    <uses-permission android:name="android.permission.INTERNET" /> <!-- .. -->
+18-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:12:5-67
+18-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:12:22-64
+19    <!-- for bluetooth -->
+20    <uses-permission android:name="android.permission.BLUETOOTH" />
+20-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:14:5-68
+20-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:14:22-65
+21    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+21-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:15:5-74
+21-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:15:22-71
+22    <!--
+23 If your app targets Android 9 or lower, you can declare
+24         ACCESS_COARSE_LOCATION instead.
+25    -->
+26    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+26-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:11:5-79
+26-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:11:22-76
+27    <uses-permission android:name="android.permission.WAKE_LOCK" />
+27-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:21:5-68
+27-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:21:22-65
+28    <uses-permission android:name="android.permission.INTERNET" />
+28-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:12:5-67
+28-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:12:22-64
+29    <uses-permission android:name="android.permission.ACCESSNETWORKSTATE" />
+29-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:23:5-77
+29-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:23:22-74
+30    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+30-->[:wahoo_fitness_android_api_1.8.2.0] C:\Users\g7sak\Desktop\FingerprintAuthentication\wahoo_fitness_android_api_1.8.2.0\build\.transforms\2cf6273fd7afce90044d4a030abb7f2c\jetified-wahoo_fitness_android_api_1.8.2.0\AndroidManifest.xml:18:5-79
+30-->[:wahoo_fitness_android_api_1.8.2.0] C:\Users\g7sak\Desktop\FingerprintAuthentication\wahoo_fitness_android_api_1.8.2.0\build\.transforms\2cf6273fd7afce90044d4a030abb7f2c\jetified-wahoo_fitness_android_api_1.8.2.0\AndroidManifest.xml:18:22-76
+31
+32    <uses-feature
+32-->[:wahoo_fitness_android_api_1.8.2.0] C:\Users\g7sak\Desktop\FingerprintAuthentication\wahoo_fitness_android_api_1.8.2.0\build\.transforms\2cf6273fd7afce90044d4a030abb7f2c\jetified-wahoo_fitness_android_api_1.8.2.0\AndroidManifest.xml:20:5-22:36
+33        android:name="android.hardware.bluetooth_le"
+33-->[:wahoo_fitness_android_api_1.8.2.0] C:\Users\g7sak\Desktop\FingerprintAuthentication\wahoo_fitness_android_api_1.8.2.0\build\.transforms\2cf6273fd7afce90044d4a030abb7f2c\jetified-wahoo_fitness_android_api_1.8.2.0\AndroidManifest.xml:21:9-53
+34        android:required="false" />
+34-->[:wahoo_fitness_android_api_1.8.2.0] C:\Users\g7sak\Desktop\FingerprintAuthentication\wahoo_fitness_android_api_1.8.2.0\build\.transforms\2cf6273fd7afce90044d4a030abb7f2c\jetified-wahoo_fitness_android_api_1.8.2.0\AndroidManifest.xml:22:9-33
+35
+36    <application
+36-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:25:5-49:19
+37        android:allowBackup="true"
+37-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:26:9-35
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.0.1] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\72b2b92ec4ab73ff21fb9bc348de3b22\core-1.0.1\AndroidManifest.xml:22:18-86
+39        android:debuggable="true"
+40        android:icon="@mipmap/ic_launcher"
+40-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:27:9-43
+41        android:label="@string/app_name"
+41-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:28:9-41
+42        android:roundIcon="@mipmap/ic_launcher_round"
+42-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:29:9-54
+43        android:supportsRtl="true"
+43-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:30:9-35
+44        android:testOnly="true"
+45        android:theme="@style/AppTheme" >
+45-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:31:9-40
+46        <activity android:name="com.example.fingerprintauthentication.BluetoothActivity" >
+46-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:33:9-39:20
+46-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:33:19-52
+47            <intent-filter>
+47-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:34:13-38:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:35:17-69
+48-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:35:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:37:17-77
+50-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:37:27-74
+51            </intent-filter>
+52        </activity>
+53        <!-- ... -->
+54        <activity android:name="com.example.fingerprintauthentication.homepage" />
+54-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:41:9-46
+54-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:41:19-43
+55        <activity android:name="com.example.fingerprintauthentication.MainActivity" >
+55-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:42:9-48:20
+55-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:42:19-47
+56            <intent-filter>
+56-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:34:13-38:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:35:17-69
+57-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:35:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:37:17-77
+59-->C:\Users\g7sak\Desktop\FingerprintAuthentication\app\src\main\AndroidManifest.xml:37:27-74
+60            </intent-filter>
+61        </activity>
+62        <activity
+62-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\291563c6708268cf4683b088770f2b39\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+63            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+63-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\291563c6708268cf4683b088770f2b39\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+64            android:exported="false"
+64-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\291563c6708268cf4683b088770f2b39\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+65            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+65-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\291563c6708268cf4683b088770f2b39\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+66
+67        <meta-data
+67-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\0d527c9fe76ee3799d364c7c740417ad\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+68            android:name="com.google.android.gms.version"
+68-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\0d527c9fe76ee3799d364c7c740417ad\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+69            android:value="@integer/google_play_services_version" />
+69-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\g7sak\.gradle\caches\transforms-2\files-2.1\0d527c9fe76ee3799d364c7c740417ad\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+70    </application>
+71
+72</manifest>
