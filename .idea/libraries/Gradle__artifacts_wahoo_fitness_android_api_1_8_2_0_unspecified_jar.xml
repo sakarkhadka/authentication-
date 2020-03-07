@@ -1,14 +1,14 @@
 <component name="libraryTable">
   <library name="Gradle: artifacts:wahoo_fitness_android_api_1.8.2.0:unspecified@jar">
     <ANNOTATIONS>
-      <root url="jar://$PROJECT_DIR$/wahoo_fitness_android_api_1.8.2.0/build/.transforms/2cf6273fd7afce90044d4a030abb7f2c/jetified-wahoo_fitness_android_api_1.8.2.0/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/wahoo_fitness_android_api_1.8.2.0/build/.transforms/45b51e9a22f6df224a7b7245be09a980/jetified-wahoo_fitness_android_api_1.8.2.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/wahoo_fitness_android_api_1.8.2.0/build/.transforms/2cf6273fd7afce90044d4a030abb7f2c/jetified-wahoo_fitness_android_api_1.8.2.0/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/wahoo_fitness_android_api_1.8.2.0/build/.transforms/2cf6273fd7afce90044d4a030abb7f2c/jetified-wahoo_fitness_android_api_1.8.2.0/res" />
-      <root url="jar://$PROJECT_DIR$/wahoo_fitness_android_api_1.8.2.0/build/.transforms/2cf6273fd7afce90044d4a030abb7f2c/jetified-wahoo_fitness_android_api_1.8.2.0/jars/libs/android_antlib-restricted_4-14-0.jar!/" />
-      <root url="jar://$PROJECT_DIR$/wahoo_fitness_android_api_1.8.2.0/build/.transforms/2cf6273fd7afce90044d4a030abb7f2c/jetified-wahoo_fitness_android_api_1.8.2.0/jars/libs/antpluginlib_3-6-0.jar!/" />
-      <root url="jar://$PROJECT_DIR$/wahoo_fitness_android_api_1.8.2.0/build/.transforms/2cf6273fd7afce90044d4a030abb7f2c/jetified-wahoo_fitness_android_api_1.8.2.0/jars/libs/antstatenotifiercontrollib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/wahoo_fitness_android_api_1.8.2.0/build/.transforms/45b51e9a22f6df224a7b7245be09a980/jetified-wahoo_fitness_android_api_1.8.2.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/wahoo_fitness_android_api_1.8.2.0/build/.transforms/45b51e9a22f6df224a7b7245be09a980/jetified-wahoo_fitness_android_api_1.8.2.0/res" />
+      <root url="jar://$PROJECT_DIR$/wahoo_fitness_android_api_1.8.2.0/build/.transforms/45b51e9a22f6df224a7b7245be09a980/jetified-wahoo_fitness_android_api_1.8.2.0/jars/libs/android_antlib-restricted_4-14-0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/wahoo_fitness_android_api_1.8.2.0/build/.transforms/45b51e9a22f6df224a7b7245be09a980/jetified-wahoo_fitness_android_api_1.8.2.0/jars/libs/antpluginlib_3-6-0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/wahoo_fitness_android_api_1.8.2.0/build/.transforms/45b51e9a22f6df224a7b7245be09a980/jetified-wahoo_fitness_android_api_1.8.2.0/jars/libs/antstatenotifiercontrollib.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

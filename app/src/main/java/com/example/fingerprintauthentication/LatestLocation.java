@@ -46,7 +46,6 @@ public class LatestLocation extends AppCompatActivity {
                 if (location != null) {
                     latitude = location.getLatitude();
                     longitude = location.getLongitude();
-
                 }
             }
         });
