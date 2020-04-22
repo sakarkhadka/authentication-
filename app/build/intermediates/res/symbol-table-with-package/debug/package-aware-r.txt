@@ -1112,7 +1112,6 @@ id barrier
 id beginning
 id blocking
 id bottom
-id button
 id buttonPanel
 id cancel_action
 id center
@@ -1141,7 +1140,6 @@ id design_navigation_view
 id dimensions
 id direct
 id disableHome
-id discoverableBtn
 id edit_query
 id end
 id end_padder
@@ -1157,12 +1155,10 @@ id filled
 id finger
 id fixed
 id forever
-id fun
 id ghost_view
 id gone
 id group_divider
 id groups
-id heartbeat
 id home
 id homeAsUp
 id icon
@@ -1199,12 +1195,8 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
-id offBtn
-id onBtn
 id outline
 id packed
-id pairedBtn
-id pairedTv
 id parallax
 id parent
 id parentPanel
@@ -1257,7 +1249,6 @@ id src_in
 id src_over
 id standard
 id start
-id statusBluetoothTv
 id status_bar_latest_event_content
 id stretch
 id submenuarrow
@@ -1348,7 +1339,6 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_bluetooth
 layout activity_homepage
 layout activity_main
 layout design_bottom_navigation_item

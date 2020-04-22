@@ -76,8 +76,8 @@ public class homepage extends AppCompatActivity {
     public void newpage(View view) {
 
             Toast.makeText(getApplicationContext(), "Success", Toast.LENGTH_SHORT).show();
-            Intent intent1 = new Intent(this, BluetoothActivity.class);
-            startActivity(intent1);
+          //  Intent intent1 = new Intent(this, BluetoothActivity.class);
+          //  startActivity(intent1);
 
     }
 }

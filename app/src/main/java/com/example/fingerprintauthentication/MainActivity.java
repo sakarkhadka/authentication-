@@ -1,8 +1,5 @@
 package com.example.fingerprintauthentication;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
-
 import android.Manifest;
 import android.app.KeyguardManager;
 import android.content.Intent;
@@ -14,16 +11,14 @@ import android.security.keystore.KeyPermanentlyInvalidatedException;
 import android.security.keystore.KeyProperties;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.android.volley.Request;
-import com.android.volley.RequestQueue;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.StringRequest;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 
+import org.json.JSONException;
 
 import java.io.IOException;
 import java.security.InvalidAlgorithmParameterException;
@@ -39,11 +34,20 @@ import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
 import javax.crypto.NoSuchPaddingException;
 import javax.crypto.SecretKey;
-import javax.crypto.SecretKey;
 
-import com.android.volley.toolbox.Volley;
-//
+import okhttp3.Call;
+import okhttp3.Callback;
+import okhttp3.MediaType;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.RequestBody;
+import okhttp3.Response;
 
+
+
+
+
+/*
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.VolleyError;
@@ -52,7 +56,7 @@ import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 
-//
+*/
 
 public class MainActivity extends AppCompatActivity {
 
@@ -64,6 +68,14 @@ public class MainActivity extends AppCompatActivity {
     private FingerprintManager.CryptoObject cryptoObject;
     private FingerprintManager fingerprintManager;
     private KeyguardManager keyguardManager;
+
+
+    String login_info = "";
+    boolean status = false;
+   // public Response response;
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -186,61 +198,140 @@ public class MainActivity extends AppCompatActivity {
 
 
     //start here ---g7s
-    public void login(View view){
+    public void login(View view) throws JSONException {
+
+
 
         EditText uName = (EditText)findViewById(R.id.userName);
-
-
-
-
-        String ID = uName.getText().toString();
+        String username = uName.getText().toString();
 
         EditText pswrd = (EditText)findViewById(R.id.password);
-        String pW = pswrd.getText().toString();
+        String password = pswrd.getText().toString();
+
+
+        Log.d("ERROR", "Username " + "\"" + username + "\"" +" "+ "Password " + "\"" + password + "\"");
+
+
+        OkHttpClient client = new OkHttpClient().newBuilder().build();
+        MediaType mediaType = MediaType.parse("application/json");
 
         // Instantiate the RequestQueue.
-        RequestQueue queue = Volley.newRequestQueue(this);
-        String url ="https://kix7tx694g.execute-api.us-east-1.amazonaws.com/dev/get_sentry_api";
+        //String url ="https://kix7tx694g.execute-api.us-east-1.amazonaws.com/dev/signIn/1001";
+        String url ="https://kix7tx694g.execute-api.us-east-1.amazonaws.com/dev/signIn/2494100525";
 
-// Request a string response from the provided URL.
-        StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
-                new Response.Listener<String>() {
-                    @Override
-                    public void onResponse(String response) {
-                        // Display the first 500 characters of the response string.
-                        System.out.printf("Response is: "+ response.substring(0,500));
 
-                    }
-                }, new Response.ErrorListener() {
+        //
+        //OkHttpClient client = new OkHttpClient();
+//
+//        RequestBody formBody = new requestBody.create()//FormBody.Builder()
+//                .add("{\n\t\"username\":\"Dilan\",\n\t\"password\":\"Dilan1\" \n}",password)
+//                .build();
+//        Request request = new Request.Builder()
+//                .url(url)
+//                .post(formBody)
+//                .build();
+     //public static final MediaType JSON = MediaType.get("application/json; charset=utf-8");
+        String json = "{\n\t\"username\": " + "\"" + username + "\"" + ",\n\t\"password\":"+ "\"" + password + "\"" + "\n}";
+
+//        String lat = "12.00";
+//        String lon = "1.00";
+//
+//        String json1 = "{\n" + "\"geolocation\": \""  + lat  + "," + lon + "\"\n}";
+//
+//        Log.d("json1", json1);
+
+        Log.d("json", json.toString());
+        RequestBody body = RequestBody.create(mediaType,json);
+        Request request = new Request.Builder()
+                .url(url)
+                .method("POST", body)
+                .addHeader("Content-Type", "application/json")
+                .build();
+
+       // try {
+             //Response response = client.newCall(request).execute();
+        client.newCall(request).enqueue(new Callback() {
             @Override
-            public void onErrorResponse(VolleyError error) {
-                System.out.printf("That didn't work!");
+            public void onFailure(Call call, IOException e) {
+                e.printStackTrace();
             }
-        });
 
-// Add the request to the RequestQueue.
-        queue.add(stringRequest);
+            @Override
+            public void onResponse(Call call, Response response) throws IOException {
+                if (response.isSuccessful()){
+                    final String myResponse = response.body().string();
+                    try{
+                        login_info = myResponse.toString();
+                        Log.d("Login status", login_info);
+                        //status = true;
 
 
-        //check in the database here
-        String u = "yoda";
-        String p = "candy";
-        if(ID.equals("yoda") && pW.equals("candy")){
-            Toast.makeText(getApplicationContext(), "Success", Toast.LENGTH_SHORT).show();
+
+                    }catch (Exception e){}
+
+
+
+                }
+            }
+
+
+          //  Log.d("response", response.toString());
+
+            // Do something with the response.
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+
+        //
+
+
+//        okhttp3.Request request = new Request.Builder()
+//                .url(url)
+//                .build();
+
+//        client.newCall(request).enqueue(new Callback() {
+//            @Override
+//            public void onFailure(Call call, IOException e) {
+//                e.printStackTrace();
+//            }
+//
+//            @Override
+//            public void onResponse(Call call, Response response) throws IOException {
+//                if (response.isSuccessful()){
+//                    final String myResponse = response.body().string();
+//                    try{
+//                         login_info = myResponse.toString();
+//                         Log.d("Login status", login_info);
+//                         //status = true;
+//                    }catch (Exception e){}
+//                }
+//            }
+//        });
+
+       //while (status == false) {}
+       //status = false;
+
+
+
+
+    });
+
+        try {
+            Thread.sleep(500);
+        }catch(Exception e){
+
+        }
+
+        String stat = "{"+ "\"" + "status"+ "\"" +":" + "\"" + "login successful" +"\""+ "}";
+
+        Toast.makeText(getApplicationContext(), login_info, Toast.LENGTH_SHORT).show();
+        if(login_info.equals(stat)) {
             Intent intent = new Intent(this, homepage.class);
             startActivity(intent);
+            Intent intentgeo = new Intent(this, MyService.class);
+            startService(intentgeo);
+
         }
-        else{
-            Toast.makeText(getApplicationContext(), "Invalid Credentials", Toast.LENGTH_SHORT).show();
-            //Intent in = new Intent(this, homepage.class);
-           // startActivity(in);
-        }
-        //g7
-    }
+}}
 
 
-
-
-    //end here ---g7s
-
-}
